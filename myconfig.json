@@ -1,0 +1,30 @@
+{
+"title": "map command+tab to command+caps",
+"rules": [
+{
+	"description": "map command+tab to command+caps",
+	"manipulators": [
+	{
+		"type": "basic",
+		"from": {
+			"key_code": "caps_lock",
+			"modifiers": {
+				"mandatory": [ "command" ],
+				"optional": [ "fn", "optional" ] 
+			}
+		},
+		"to": {
+			{
+			"key_code": "tab",
+			"modifiers": [
+				"command"
+			]
+			}
+		}
+	      }
+	   ]
+        }
+     ]
+}
+
+

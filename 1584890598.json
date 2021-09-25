@@ -1,0 +1,98 @@
+{
+	"title": "autre HHKB: when(right_cmd->fn) l;'p->arrow && ,.->page && 4->F4",
+	"rules": [
+		{
+			"description": "autre HHKB: fn + (l;'p->arrow_left/down/up/right )",
+			"manipulators": [
+				{
+					"from": {
+						"key_code": "l",
+						"modifiers": {
+							"mandatory": [
+								"fn"
+							],
+							"optional": [
+								"caps_lock",
+								"command",
+								"option",
+								"shift"
+							]
+						}
+					},
+					"to": [
+						{
+							"key_code": "left_arrow"
+						}
+					],
+					"type": "basic"
+				},
+				{
+					"from": {
+						"key_code": "k",
+						"modifiers": {
+							"mandatory": [
+								"fn"
+							],
+							"optional": [
+								"caps_lock",
+								"command",
+								"option",
+								"shift"
+							]
+						}
+					},
+					"to": [
+						{
+							"key_code": "down_arrow"
+						}
+					],
+					"type": "basic"
+				},
+				{
+					"from": {
+						"key_code": "p",
+						"modifiers": {
+							"mandatory": [
+								"fn"
+							],
+							"optional": [
+								"caps_lock",
+								"command",
+								"option",
+								"shift"
+							]
+						}
+					},
+					"to": [
+						{
+							"key_code": "up_arrow"
+						}
+					],
+					"type": "basic"
+				},
+				{
+					"from": {
+						"key_code": "'",
+						"modifiers": {
+							"mandatory": [
+								"fn"
+							],
+							"optional": [
+								"caps_lock",
+								"command",
+								"option",
+								"shift"
+							]
+						}
+					},
+					"to": [
+						{
+							"key_code": "right_arrow"
+						}
+					],
+					"type": "basic"
+				}
+			]
+		}
+	]
+}

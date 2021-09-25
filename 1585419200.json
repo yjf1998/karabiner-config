@@ -1,0 +1,27 @@
+{
+  "title": "Command+ capslock to Command + Tab",
+  "rules": [
+    {
+      "description": "Command+ capslock to Command + Tab",
+      "manipulators": [
+        {
+          "type": "basic",
+          "from": {
+            "key_code": "caps_lock",
+            "modifiers": {
+              "mandatory": [
+                "command"
+              ]
+            }
+          },
+          "to": {
+            "key_code": "tab",
+            "modifiers": [
+              "command"
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}
